@@ -56,5 +56,9 @@ That means you must fulfill these requirements:
 ## Acknowledgments
 
 I would like to thank Mozilla for making one of the best e-mail clients ever.
+
 [Thunderbird](https://www.thunderbird.net/pl/)
+
 [Mozilla](https://www.mozilla.org/pl/)
+
+If you like my work please share your opinion with me!
