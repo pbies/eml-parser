@@ -20,6 +20,10 @@ Download is enough.
 
 Script is so easy, that it does not need testing. You may experience issues when there are no .eml files in the folder.
 
+## Purpose
+
+Script is made for copying .eml files to subfolder "out" renaming each file with "date-time" of the message.
+
 ## Built With
 
 * [Notepad++](https://notepad-plus-plus.org/) - The editor used
