@@ -37,6 +37,7 @@ When there will be new version, the current one will be overwritten.
 * **Piotr Biesiada** - *Initial work*
 
 [github](https://github.com/pbies)
+
 [homepage](https://pbies.net/)
 
 ## License
