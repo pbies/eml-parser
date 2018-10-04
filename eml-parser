@@ -1,0 +1,13 @@
+mkdir out
+for f in ./*.eml
+do
+	while IFS= read -r l; do
+		ss=${l:0:5}
+		if [ "$ss" = "Date:" ]; then
+			d="${l:6}"
+			fd=`date --date="$d" "+%y%m%d-%H%M%S"`
+			break
+		fi
+	done < "$f"
+	cp "$f" out/"$fd".eml
+done
