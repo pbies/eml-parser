@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# © 2018 Piotr Biesiada
+# (C) 2018 Piotr Biesiada
 mkdir out
 for f in ./*.eml
 do
