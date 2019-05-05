@@ -4,9 +4,10 @@ Thunderbird eml files parser for copy/rename according to date inside the .eml f
 ## Getting Started
 
 1. Download the script
-2. Save selected messages from Thunderbird to one folder
-3. Put the script in that folder
+2. Put the script in a folder
+3. Save selected messages from Thunderbird to subfolder "in"
 4. Run the script
+5. The result is in "out" subfolder
 
 ### Prerequisites
 
@@ -14,11 +15,11 @@ Thunderbird and Linux or Cygwin.
 
 ### Installing
 
-Download is enough.
+Download is enough. You may need some Perl packages. Please install them via "apt" or "apt-get".
 
 ## Running the tests
 
-Script is so easy, that it does not need testing. You may experience issues when there are no .eml files in the folder.
+Script is so easy, that it does not need testing. You may experience issues when there are no .eml files in the "in" folder.
 
 ## Purpose
 
@@ -26,7 +27,7 @@ Script is made for copying .eml files to subfolder "out" renaming each file with
 
 ## Built With
 
-* [Notepad++](https://notepad-plus-plus.org/) - The editor used
+[Sublime Text](https://www.sublimetext.com/)
 
 ## Contributing
 
@@ -54,11 +55,5 @@ That means you must fulfill these requirements:
 4. you can freely modify and use this project for personal usage
 
 ## Acknowledgments
-
-I would like to thank Mozilla for making one of the best e-mail clients ever.
-
-[Thunderbird](https://www.thunderbird.net/pl/)
-
-[Mozilla](https://www.mozilla.org/pl/)
 
 If you like my work please share your opinion with me!
