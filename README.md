@@ -16,8 +16,11 @@ Thunderbird and Linux, Cygwin or Linux on Windows. Perl is needed. Perl DateTime
 ### Installing
 
 Download. You may need some Perl packages. Please install them using: apt, apt-get, yum or Cygwin setup.
+
 To install Perl DateTime package use the following commands:
+
 perl -MCPAN -e shell
+
 cpan> install DateTime
 
 ## Running the tests
