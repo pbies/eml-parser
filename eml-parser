@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # (C) 2018 Piotr Biesiada
 mkdir out
-for f in ./*.eml
+for f in in/*.eml
 do
 	while IFS= read -r l; do
 		ss=${l:0:5}
@@ -11,5 +11,8 @@ do
 			break
 		fi
 	done < "$f"
+	while [ -f out/"$fd".eml ] ; do
+		fd="$fd"_
+	done
 	cp "$f" out/"$fd".eml
 done
