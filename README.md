@@ -7,15 +7,18 @@ Thunderbird eml files parser for copy/rename according to date inside the .eml f
 2. Put the script in a folder
 3. Save selected messages from Thunderbird to subfolder "in"
 4. Run the script
-5. The result is in "out" subfolder
+5. The result are in "out" subfolder
 
 ### Prerequisites
 
-Thunderbird and Linux or Cygwin.
+Thunderbird and Linux, Cygwin or Linux on Windows. Perl is needed. Perl DateTime package is needed.
 
 ### Installing
 
-Download is enough. You may need some Perl packages. Please install them via "apt" or "apt-get".
+Download. You may need some Perl packages. Please install them using: apt, apt-get, yum or Cygwin setup.
+To install Perl DateTime package use the following commands:
+perl -MCPAN -e shell
+cpan> install DateTime
 
 ## Running the tests
 
@@ -24,10 +27,11 @@ Script is so easy, that it does not need testing. You may experience issues when
 ## Purpose
 
 Script is made for copying .eml files to subfolder "out" renaming each file with "date-time" of the message.
+If there is the same date and time, filename will end with one or more "\_".
 
 ## Built With
 
-[Sublime Text](https://www.sublimetext.com/)
+Midnight Commander.
 
 ## Contributing
 
