@@ -11,7 +11,7 @@ Thunderbird eml files parser for copy/rename according to date inside the .eml f
 
 ### Prerequisites
 
-Thunderbird and Linux, Cygwin or Linux on Windows. Perl is needed. Perl DateTime package is needed.
+Thunderbird and Linux/Cygwin/WSL. Perl is needed for .pl script. Perl DateTime package is needed.
 
 ### Installing
 
