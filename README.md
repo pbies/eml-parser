@@ -1,66 +1,77 @@
-# eml-parser
-Thunderbird eml files parser for copy/rename according to date inside the .eml file
+eml-parser
+==========
 
-## Getting Started
+		Thunderbird eml files parser for copy/rename according to date inside the .eml file
 
-1. Download the script
-2. Put the script in a folder
-3. Save selected messages from Thunderbird to subfolder "in"
-4. Run the script
-5. The result are in "out" subfolder
+	Getting Started
+	---------------
 
-### Prerequisites
+		1. Download the script
+		2. Put the script in a folder
+		3. Save selected messages from Thunderbird to subfolder "in"
+		4. Run the script
+		5. The result are in "out" subfolder
 
-Thunderbird and Linux/Cygwin/WSL. Perl is needed for .pl script. Perl DateTime package is needed.
+	Prerequisites
+	-------------
 
-### Installing
+		Thunderbird and Linux/Cygwin/WSL. Perl is needed for .pl script. Perl DateTime package is needed.
 
-Download. You may need some Perl packages. Please install them using: apt, apt-get, yum or Cygwin setup.
+	Installing
+	----------
 
-To install Perl DateTime package use the following commands:
+		Download. You may need some Perl packages. Please install them using: apt, apt-get, yum or Cygwin setup.
 
-perl -MCPAN -e shell
+		To install Perl DateTime package use the following commands:
 
-cpan> install DateTime
+		perl -MCPAN -e shell
 
-## Running the tests
+		cpan> install DateTime
 
-Script is so easy, that it does not need testing. You may experience issues when there are no .eml files in the "in" folder.
+	Running the tests
+	-----------------
 
-## Purpose
+		Script is so easy, that it does not need testing. You may experience issues when there are no .eml files in the "in" folder.
 
-Script is made for copying .eml files to subfolder "out" renaming each file with "date-time" of the message.
-If there is the same date and time, filename will end with one or more "\_".
+	Purpose
+	-------
 
-## Built With
+		Script is made for copying .eml files to subfolder "out" renaming each file with "date-time" of the message.
+		If there is the same date and time, filename will end with one or more "\_".
 
-Midnight Commander.
+	Built With
+	----------
 
-## Contributing
+		Midnight Commander
 
-Edits are allowed on separate branches.
+	Contributing
+	------------
 
-## Versioning
+		Edits are allowed on separate branches.
 
-When there will be new version, the current one will be overwritten.
+	Versioning
+	----------
 
-## Authors
+		When there will be new version, the current one will be overwritten.
 
-* **Piotr Biesiada** - *Initial work*
+	Authors
+	-------
 
-[github](https://github.com/pbies)
+		Piotr Biesiada - Initial work
 
-[homepage](https://pbies.net/)
+	License
+	-------
 
-## License
+		This project is licensed under the GNU GENERAL PUBLIC LICENSE - see
+		the LICENSE file for details.
 
-This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE](LICENSE) file for details.
-That means you must fulfill these requirements:
-1. your project have the same license
-2. you mention the original author (me)
-3. can't use scripts in commercial products if they are not free
-4. you can freely modify and use this project for personal usage
+		That means you must fulfill these requirements:
+		1. your project have the same license
+		2. you mention the original author (me)
+		3. can't use scripts in commercial products if they are not free
+		4. you can freely modify and use this project for personal usage
 
-## Acknowledgments
+	Acknowledgments
+	---------------
 
-If you like my work please share your opinion with me!
+		If you like my work please share your opinion with me!
