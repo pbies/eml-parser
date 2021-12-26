@@ -1,7 +1,8 @@
 eml-parser
 ==========
 
-		Thunderbird eml files parser for copy/rename according to date inside the .eml file
+		Thunderbird eml files parser for copy/rename according
+		to date inside the .eml file
 
 	Getting Started
 	---------------
@@ -15,12 +16,14 @@ eml-parser
 	Prerequisites
 	-------------
 
-		Thunderbird and Linux/Cygwin/WSL. Perl is needed for .pl script. Perl DateTime package is needed.
+		Thunderbird and Linux/Cygwin/WSL. Perl is needed for .pl script.
+		Perl DateTime package is needed.
 
 	Installing
 	----------
 
-		Download. You may need some Perl packages. Please install them using: apt, apt-get, yum or Cygwin setup.
+		Download. You may need some Perl packages. Please install them using:
+		apt, apt-get, yum or Cygwin setup.
 
 		To install Perl DateTime package use the following commands:
 
@@ -31,13 +34,16 @@ eml-parser
 	Running the tests
 	-----------------
 
-		Script is so easy, that it does not need testing. You may experience issues when there are no .eml files in the "in" folder.
+		Script is so easy, that it does not need testing. You may experience
+		issues when there are no .eml files in the "in" folder.
 
 	Purpose
 	-------
 
-		Script is made for copying .eml files to subfolder "out" renaming each file with "date-time" of the message.
-		If there is the same date and time, filename will end with one or more "\_".
+		Script is made for copying .eml files to subfolder "out" renaming
+		each file with "date-time" of the message.
+		If there is the same date and time, filename will end with one
+		or more "\_".
 
 	Built With
 	----------
