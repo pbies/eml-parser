@@ -82,4 +82,4 @@
 
 		If you like my work please share your opinion with me!
 
-		ptrbsd gmail
+		ptrbsd (at) gmail
